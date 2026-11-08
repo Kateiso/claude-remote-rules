@@ -1,4 +1,11 @@
-[
-  "DOMAIN-SUFFIX,claude.ai,PROXY",
-  "DOMAIN-SUFFIX,bridge.claudeusercontent.com,PROXY"
-]
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "claude.ai",
+        "bridge.claudeusercontent.com"
+      ]
+    }
+  ]
+}
